@@ -75,10 +75,6 @@ crashlytics-build.properties
 # SteamVR
 /Assets/SteamVR*
 
-# XR
-/Assets/XR*
-
-
 # SIGVerse
 SIGVerse*.log
 *Google.Protobuf.dll*
@@ -98,7 +94,6 @@ SIGVerse*.log
 /Assets/Resources*
 /Assets/Samples*
 /Assets/SIGVerse*
-/Assets/URP*
 
 /Assets/Competition/Common*
 
