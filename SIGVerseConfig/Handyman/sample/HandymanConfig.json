@@ -1,0 +1,12 @@
+﻿{
+    "teamName": "H@ndyman",
+    "sessionTimeLimit": 600,
+    "maxNumberOfTrials": 6,
+    "isScoreFileRead": false,
+    "isGraspableObjectsPositionRandom": false,
+    "isAlwaysGoNext": false,
+    "playbackType": 1,
+    "bgmVolume": 0.01,
+    "reduceLoadInDataGen": true
+}
+
