@@ -7,7 +7,7 @@
 /[Uu]ser[Ss]ettings/
 /Assets/AssetStoreTools*
 
-# Visual Studio 2015 cache directory
+# Visual Studio cache directory
 /.vs/
 
 # Gradle cache directory
@@ -95,7 +95,11 @@ SIGVerse*.log
 !/TTS/.gitkeep
 
 /Assets/Plugins*
+/Assets/Resources*
+/Assets/Samples*
 /Assets/SIGVerse*
+/Assets/URP*
+
 /Assets/Competition/Common*
 
 /Assets/Competition/Handyman/HiddenFiles*
