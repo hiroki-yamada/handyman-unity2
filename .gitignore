@@ -85,8 +85,6 @@ SIGVerse*.log
 /TTS/*
 !/TTS/.gitkeep
 
-/Assets/Plugins*
-/Assets/Resources*
 /Assets/SIGVerse*
 
 /Assets/Competition/Common*
