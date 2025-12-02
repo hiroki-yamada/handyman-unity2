@@ -574,7 +574,7 @@ namespace SIGVerse.Competition.Handyman
 		}
 
 
-		public void OnReceiveRosMessage(RosBridge.handyman.HandymanMsg handymanMsg)
+		public void OnReceiveRosMessage(RosBridge.handyman_msgs.msg.HandymanMsg handymanMsg)
 		{
 			if(this.receivedMessageMap.ContainsKey(handymanMsg.message))
 			{

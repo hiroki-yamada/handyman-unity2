@@ -9,13 +9,13 @@ namespace SIGVerse.Competition.Handyman
 		void OnSendRosMessage(string message, string detail);
 	}
 
-	public class HandymanPubMessage : RosPubMessage<RosBridge.handyman.HandymanMsg>, IRosMsgSendHandler
+	public class HandymanPubMessage : RosPubMessage<RosBridge.handyman_msgs.msg.HandymanMsg>, IRosMsgSendHandler
 	{
 		public void OnSendRosMessage(string message, string detail)
 		{
 			SIGVerseLogger.Info("Sending message :" + message + ", " + detail);
 
-			RosBridge.handyman.HandymanMsg handymanMsg = new RosBridge.handyman.HandymanMsg();
+			RosBridge.handyman_msgs.msg.HandymanMsg handymanMsg = new RosBridge.handyman_msgs.msg.HandymanMsg();
 			handymanMsg.message = message;
 			handymanMsg.detail = detail;
 

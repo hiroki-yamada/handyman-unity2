@@ -8,14 +8,14 @@ namespace SIGVerse.Competition.Handyman
 {
 	public interface IRosMsgReceiveHandler : IEventSystemHandler
 	{
-		void OnReceiveRosMessage(RosBridge.handyman.HandymanMsg handymanMsg);
+		void OnReceiveRosMessage(RosBridge.handyman_msgs.msg.HandymanMsg handymanMsg);
 	}
 
-	public class HandymanSubMessage : RosSubMessage<RosBridge.handyman.HandymanMsg>
+	public class HandymanSubMessage : RosSubMessage<RosBridge.handyman_msgs.msg.HandymanMsg>
 	{
 		public List<GameObject> destinations;
 
-		protected override void SubscribeMessageCallback(RosBridge.handyman.HandymanMsg handymanMsg)
+		protected override void SubscribeMessageCallback(RosBridge.handyman_msgs.msg.HandymanMsg handymanMsg)
 		{
 			SIGVerseLogger.Info("Received message :"+handymanMsg.message);
 
