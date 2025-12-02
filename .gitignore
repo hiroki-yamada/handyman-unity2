@@ -67,11 +67,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets*
 
-
-# TextMesh Pro
-/Assets/TextMesh Pro
-/Assets/TextMesh Pro.meta
-
 # SteamVR
 /Assets/SteamVR*
 
@@ -92,7 +87,6 @@ SIGVerse*.log
 
 /Assets/Plugins*
 /Assets/Resources*
-/Assets/Samples*
 /Assets/SIGVerse*
 
 /Assets/Competition/Common*
