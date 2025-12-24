@@ -2716,7 +2716,6 @@ GameObject:
   - component: {fileID: 4791016362347598}
   - component: {fileID: 33501191675336460}
   - component: {fileID: 23412625293983268}
-  - component: {fileID: 95208048289804336}
   - component: {fileID: 64815914429065364}
   m_Layer: 0
   m_Name: TV_rack#1
@@ -2795,28 +2794,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &95208048289804336
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1106138407891314}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 42140b0015637cf48aed8a39dc572999, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!64 &64815914429065364
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9511,7 +9488,6 @@ GameObject:
   - component: {fileID: 4797811525162376}
   - component: {fileID: 33351363345000734}
   - component: {fileID: 23769603446537516}
-  - component: {fileID: 95427706368049744}
   - component: {fileID: 64259751998957042}
   m_Layer: 0
   m_Name: TV_rack#2
@@ -9590,28 +9566,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &95427706368049744
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370419319023178}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 42140b0015637cf48aed8a39dc572999, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!64 &64259751998957042
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16981,7 +16935,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641189539867436}
-  m_Mesh: {fileID: 4300000, guid: 116fd32918ed0d54cbfd337ab3280b49, type: 3}
+  m_Mesh: {fileID: -8756085037183227936, guid: c1a0ae5011e7e334d92830a5d4989500, type: 3}
 --- !u!23 &23745987350012820
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17055,7 +17009,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 28
-  m_Mesh: {fileID: 4300000, guid: 116fd32918ed0d54cbfd337ab3280b49, type: 3}
+  m_Mesh: {fileID: -8756085037183227936, guid: c1a0ae5011e7e334d92830a5d4989500, type: 3}
 --- !u!54 &54001833737511956
 Rigidbody:
   m_ObjectHideFlags: 0

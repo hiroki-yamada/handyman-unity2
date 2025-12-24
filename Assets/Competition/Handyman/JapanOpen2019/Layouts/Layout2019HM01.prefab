@@ -913,7 +913,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1029456377828482}
-  m_Mesh: {fileID: 4300000, guid: 116fd32918ed0d54cbfd337ab3280b49, type: 3}
+  m_Mesh: {fileID: -8756085037183227936, guid: c1a0ae5011e7e334d92830a5d4989500, type: 3}
 --- !u!23 &23221024305721458
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -987,7 +987,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 1
   m_CookingOptions: 28
-  m_Mesh: {fileID: 4300000, guid: 116fd32918ed0d54cbfd337ab3280b49, type: 3}
+  m_Mesh: {fileID: -8756085037183227936, guid: c1a0ae5011e7e334d92830a5d4989500, type: 3}
 --- !u!54 &54556123192440572
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -18439,7 +18439,6 @@ GameObject:
   - component: {fileID: 4812245732917474}
   - component: {fileID: 33055319882590750}
   - component: {fileID: 23763023938639058}
-  - component: {fileID: 95002375035167642}
   - component: {fileID: 64751901736314956}
   m_Layer: 0
   m_Name: TV_rack
@@ -18518,28 +18517,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &95002375035167642
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656188735357078}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 42140b0015637cf48aed8a39dc572999, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!64 &64751901736314956
 MeshCollider:
   m_ObjectHideFlags: 0
